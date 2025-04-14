@@ -1,7 +1,8 @@
-body{
+body {
   background-color: blue;
 }
-h1{
+
+h1 {
   text-align: center;
   color: white;
 }
@@ -9,7 +10,7 @@ h1{
 #visor { 
   width: 1600px; 
   height: 440px; 
-  background-color: silver;
+  background-color: green;
   overflow: hidden; 
   position: absolute; 
 }
@@ -20,11 +21,16 @@ h1{
   height: 400px; 
 }
 
-#coche{ 
+#coche { 
   position: absolute; 
   top: 250px; 
   left: 500px; 
   width: 250px;  
+}
+
+#coche:hover { 
+  cursor: pointer;
+  background-color: rgb(200, 186, 181); 
 }
 
 @keyframes micoche { 
